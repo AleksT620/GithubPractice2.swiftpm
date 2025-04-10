@@ -14,6 +14,8 @@ struct ContentView: View {
             .padding()
         Text("Answer: \(answer)")
         
-      
+        Button("Add") {
+                       answer = number1 + number2
+                   }
     }
 }
